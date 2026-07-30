@@ -1,25 +1,90 @@
 aid: leaders
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/leaders.png
 name: Leade.rs
-description: Leade.rs is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Leade.rs, Inc. was a two-sided marketplace that matched keynote, motivational, and business
+  speakers with the conferences, corporate events, brands, and press that wanted to book them.
+  Event organizers could search a curated roster and create an event, while speakers maintained a
+  profile covering their availability and topics — the platform's stated aim was to remove the
+  cold-outreach grind from conference programming and surface newer and more diverse voices.
+  The company was co-founded by Loïc Le Meur, the French entrepreneur behind the LeWeb conference
+  and a Silicon Valley angel investor; at acquisition its network was reported at roughly 300
+  speakers across 11 core fields including crypto, AI, and entrepreneurship. ASX-listed Animoca
+  Brands acquired 100% of the equity on 6 May 2019 for US$0.5 million upfront, intending to grow
+  the roster into a mentor and investor network bridging East and West alongside its Zeroth
+  accelerator, with Le Meur joining Animoca as a venture partner. The product did not survive the
+  acquisition. Leade.rs never published a public API, developer portal, SDK, or machine-readable
+  documentation, and as of the July 2026 enrichment pass the leade.rs domain no longer resolves —
+  it remains registered through December 2026 and is delegated to EuroDNS nameservers, but the
+  zone is not served, so there is no live surface of any kind to harvest. This profile is retained
+  as a historical company record.
 url: https://raw.githubusercontent.com/api-evangelist/leaders/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: portfolio-lead-enriched
+x-status: defunct
+x-acquired-by: animoca-brands
+x-acquired-year: 2019
+x-status-detail: >-
+  Acquired by Animoca Brands 6 May 2019 for US$0.5M upfront; product wound down. Domain leade.rs
+  registered 2014-12-04 and paid through 2026-12-04 (registrar United Internet / EuroDNS) and
+  delegated at the .rs registry to ns1-4.eurodns.com, but those nameservers REFUSE the zone, so
+  the domain returns no A record and curl fails to resolve (HTTP 000) as of 2026-07-19. Wayback
+  shows a domain-parking placeholder served from at least 2024-07 through the last capture on
+  2026-01-13; the parking page returns HTTP 200 HTML for every path, including /.well-known/*,
+  so archived .well-known 200s are parking noise and not real artifacts.
+x-founders:
+- Loïc Le Meur
+x-api-surface: none
+x-api-surface-reason: >-
+  Speaker-booking marketplace that never shipped a public API, developer portal, SDK, or docs;
+  domain non-resolving at enrichment time (2026-07-19). The surviving GitHub org
+  github.com/leade-rs holds a single public repo that is a fork of phusion/baseimage-docker, not
+  first-party client code, so no Packages/SDKs artifact exists.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Events
+- Conferences
+- Speakers
+- Marketplace
+- Talent
+- Defunct
+- Acquired
 apis: []
+common:
+- type: Website
+  name: Leade.rs Website (non-resolving as of 2026-07-19)
+  url: https://leade.rs
+- type: GitHubOrganization
+  name: Leade.rs on GitHub
+  url: https://github.com/leade-rs
+- type: LinkedIn
+  name: Leade.rs on LinkedIn
+  url: https://www.linkedin.com/company/leade.rs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-common:
-- type: Website
-  url: https://leade.rs
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
