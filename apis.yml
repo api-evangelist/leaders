@@ -55,7 +55,7 @@ x-api-surface-reason: >-
   domain non-resolving at enrichment time (2026-07-19). The surviving GitHub org
   github.com/leade-rs holds a single public repo that is a fork of phusion/baseimage-docker, not
   first-party client code, so no Packages/SDKs artifact exists.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
