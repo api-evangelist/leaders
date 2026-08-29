@@ -41,6 +41,9 @@ description: >-
   zone is not served, so there is no live surface of any kind to harvest. This profile is retained
   as a historical company record.
 url: https://raw.githubusercontent.com/api-evangelist/leaders/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Leade.rs never published a public API, developer portal, SDK, or machine-readable documentation, and as of the July 2026 enrichment pass the leade.rs domain no longer resolves — it remains registered "
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
