@@ -64,18 +64,35 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Leade.rs, Inc. was a two-sided marketplace matching keynote, motivational, and business speakers
-with the conferences, corporate events, brands, and press that wanted to book them. Co-founded by
-Loïc Le Meur (LeWeb), it was acquired by ASX-listed Animoca Brands on 6 May 2019 for US$0.5M
-upfront and did not survive the acquisition.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-**Status:** defunct — acquired by Animoca Brands (2019).
+Leade.rs, Inc. was a two-sided marketplace that matched keynote, motivational, and business speakers with the conferences, corporate events, brands, and press that wanted to book them. Event organizers could search a curated roster and create an event, while speakers maintained a profile covering their availability and topics — the platform's stated aim was to remove the cold-outreach grind from conference programming and surface newer and more diverse voices. The company was co-founded by Loïc Le Meur, the French entrepreneur behind the LeWeb conference and a Silicon Valley angel investor; at acquisition its network was reported at roughly 300 speakers across 11 core fields including crypto, AI, and entrepreneurship. ASX-listed Animoca Brands acquired 100% of the equity on 6 May 2019 for US$0.5 million upfront, intending to grow the roster into a mentor and investor network bridging East and West alongside its Zeroth accelerator, with Le Meur joining Animoca as a venture partner. The product did not survive the acquisition. Leade.rs never published a public API, developer portal, SDK, or machine-readable documentation, and as of the July 2026 enrichment pass the leade.rs domain no longer resolves — it remains registered through December 2026 and is delegated to EuroDNS nameservers, but the zone is not served, so there is no live surface of any kind to harvest. This profile is retained as a historical company record.
 
-**API surface:** none. Leade.rs never published a public API, developer portal, SDK, or
-machine-readable documentation. As of the 2026-07-19 enrichment pass the `leade.rs` domain does
-not resolve: it is still registered (through 2026-12-04) and delegated to EuroDNS nameservers, but
-the zone is not served, so there is no live surface to harvest. The surviving GitHub org
-[github.com/leade-rs](https://github.com/leade-rs) contains a single public repo that is a fork of
-`phusion/baseimage-docker`, not first-party client code.
+**Areas:** Company · Event · Conferences · Speakers · Marketplace · Talent · Defunct · Acquired
 
-Backed by: 500-global
+## Leade.rs on APIs.io (historical record)
+
+Everything profiled for Leade.rs is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/leaders/](https://apis.io/providers/leaders/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://leade.rs)
+- [GitHub](https://github.com/leade-rs)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Leade.rs: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/leaders/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
